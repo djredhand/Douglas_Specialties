@@ -4,3 +4,9 @@ sites/*/settings*.php
 # Ignore paths that contain user-generated content.
 sites/*/files
 sites/*/private
+
+# Ignore these git modules
+sites/all/modules/bulk_media_upload
+sites/all/modules/filefield_sources_plupload
+sites/all/modules/muploads
+sites/all/modules/rangy

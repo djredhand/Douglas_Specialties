@@ -53,7 +53,7 @@
 </script>
 <?php  if (isset($variables['user']->name) ){
 	$username = $variables['user'] -> name;
-	if($username == "Jeremy"){?>
+	if($username == "Jeremy" || "dek"){?>
 		<style>
 			#toolbar .toolbar-menu{display: none;}
 		</style>

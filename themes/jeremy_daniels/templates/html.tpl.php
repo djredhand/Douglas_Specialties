@@ -53,7 +53,7 @@
 </script>
 <?php  if (isset($variables['user']->name) ){
 	$username = $variables['user'] -> name;
-	if($username == "Jeremy" || "dek"){?>
+	if($username == "dek"){?>
 		<style>
 			#toolbar .toolbar-menu{display: none;}
 		</style>
@@ -79,7 +79,7 @@
   <div id="shieldbox"><div id="shield-active"></div></div><!-- class = shieldbox -->
   <?php  if (isset($variables['user']->name) ){
 	$username = $variables['user'] -> name;
-	if($username == "Jeremy"){?>
+	if($username == "dek"){?>
 		<script>
 			jQuery('#toolbar .toolbar-menu').css('display','none');
 			jQuery('.tabs').css('display','none');

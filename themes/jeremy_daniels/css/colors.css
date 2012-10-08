@@ -4,6 +4,7 @@
 body,
 body.overlay {
   color: #fff;
+  background: #e6e8fa;
   font-family:'arial';
   font-size: 16px;
 }
@@ -14,7 +15,7 @@ body.overlay {
 #main-wrapper,
 #main-menu-links li a.active,
 #main-menu-links li.active-trail a {
-  background: #000;
+
 }
 .tabs ul.primary li a.active {
   background-color: #ffffff;

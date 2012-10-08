@@ -533,6 +533,8 @@ h1#site-name {
 /* ------------------- Main ------------------- */
 
 #main {
+  background: #333;
+  padding: 0 0 130px 0;
 
 }
 

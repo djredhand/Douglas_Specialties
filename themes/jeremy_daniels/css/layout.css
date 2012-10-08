@@ -17,8 +17,11 @@ body,
 	
 }
 #page-wrapper.border{
-border-bottom: 1px solid #005A7F;
-border-right: .1em solid #005A7F;
+border-bottom: 1px solid #000;
+border-right: .1em solid #000;
+box-shadow: 1px 0px 8px rgba(0, 0, 0, 0.80);
+    -moz-box-shadow: 1px 0px 8px rgba(0, 0, 0, 0.80);
+    -webkit-box-shadow: 1px 0px 8px rgba(0, 0, 0, 0.80);
 }
 
 #header div.section,
@@ -229,12 +232,8 @@ height: 800px;
 }
 /*----------Menu--------------*/
 #block-menu-menu-portfolio .content ul.menu{
-	background: url(../images/nav_bg.png)#999 !important;
 	display: block;
 	padding: 15px;
-	border-top: 1px solid #333;
-	border-bottom: 1px solid #333;
-	border-right: 1px solid #333;
 	width:149px;
 }
 #block-menu-menu-portfolio .content ul.menu li{
@@ -318,9 +317,12 @@ background:#005A7F !important;
 }
 #sidebar-first{
 	/*background: none repeat scroll 0 0 #005A7F;*/
-	background:url(../images/sidebar_bg.png) #000;
+	/*background:url(../images/sidebar_bg.png) #000;*/
+	
+background: url(../images/nav_bg.png)#029 !important;
+
 	height:650px;
-	border-right:0px solid #333;
+	border-right:1px solid #333;
 	min-height: 754px;
 }
 .field .field-label {
@@ -328,8 +330,8 @@ background:#005A7F !important;
 }
 .field-name-field-about-body{
 position: absolute;
-background:#000;
-/* background: url(../images/about_text_bg.png); */
+/*background:#000;*/
+
 height: 280px;
 overflow-y: auto;
 width: 814px;

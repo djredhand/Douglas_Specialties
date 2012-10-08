@@ -107,7 +107,7 @@ background-position: top right;
 	overflow:hidden;
 	margin-right:4px;
 	color:#000;
-	border:1px solid #005A7F;
+	border:1px solid #333;
 }
 
 #scroll_indicator > li.active {

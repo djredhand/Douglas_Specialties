@@ -39,3 +39,5 @@ function shieldbrowser(reqbrowser) {
 		addLoadEvent(buildshieldbox);
 	}
 }
+
+shieldbrowser({"Firefox":6,"Safari":5,"MSIE":10,"Chrome":13});

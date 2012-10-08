@@ -1261,7 +1261,9 @@ input.form-submit:focus {
 }
 .form-item label {
   font-size: 0.929em;
+ text-shadow:0px 0px 10px #333333;
 }
+
 .form-type-radio label,
 .form-type-checkbox label {
   margin-left: 4px;

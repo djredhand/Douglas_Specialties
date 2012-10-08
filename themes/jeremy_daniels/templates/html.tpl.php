@@ -46,11 +46,7 @@
 <head profile="<?php print $grddl_profile; ?>">
 <link rel="stylesheet" href="<?php print $GLOBALS['base_path'];?>themes/jeremy_daniels/css/shield.css" type="text/css" media="all" />
 <script src="<?php print $GLOBALS['base_path'];?>themes/jeremy_daniels/js/browserdetect.js" type="text/javascript" language="javascript"></script>
-<script type="text/javascript" src="<?php print $GLOBALS['base_path'];?>themes/jeremy_daniels/js/shield.js"></script>
-<script type="text/javascript">
-/* Select from list: Chrome, Firefox, Safari, MSIE */
 
-</script>
 <?php  if (isset($variables['user']->name) ){
 	$username = $variables['user'] -> name;
 	if($username == "dek"){?>

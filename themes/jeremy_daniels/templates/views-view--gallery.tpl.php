@@ -25,7 +25,7 @@
  *
  * @ingroup views_templates
  */
-
+print_r('<script src="' . base_path() . 'themes/jeremy_daniels/js/shield.js"></script>');
  $js_galleries = array();
  $js_gallery = array();
  $js_gallery_images = array();
@@ -127,6 +127,7 @@ echo('<script src="' .  $base .'themes/jeremy_daniels/js/iscroll.js"></script>')
 echo('<script src="'.  $base .'themes/jeremy_daniels/js/custom_scroll.js"></script>');
 echo('<script src="'.  $base .'themes/jeremy_daniels/js/jquery.tinyscrollbar.min.js"></script>');
 echo('<script src="'.  $base .'themes/jeremy_daniels/js/scroll_ui.js"></script>');
+
 /*
 <div class="<?php print $classes;?>">
   <?php print render($title_prefix); ?>

@@ -129,4 +129,4 @@ DirectoryIndex index.php index.html index.htm
     </FilesMatch>
   </IfModule>
 </IfModule>
-RewriteBase /Douglas_Specialties/
+RewriteBase /Blog/Douglas_Specialties/

@@ -602,9 +602,9 @@ function plup_field_attach_presave($entity_type, $entity) {
         $destination = file_field_widget_uri($field, $instance);
         foreach ($items AS $delta => $item) {
           $file = file_load($item['fid']);
-         $fileName = isset($item['rename']) ? $item['rename'] : $file->filename;
-		 $plup_date = getdate(date("U"));
-		 $fileName = $plup_date['year'] . $plup_date['mon'] . $plup_date['mday'] . $plup_date['seconds'] . '-original-' . $fileName;
+          $plup_date = getdate(date("U"));
+          //$fileName = isset($item['rename']) ? $item['rename'] : $plup_date['year'] . $plup_date['mon'] . $plup_date['mday'] . $plup_date['seconds'] . '_' .$file->filename;
+		  $fileName = isset($item['rename']) ? $item['rename'] : $file->filename;
           $dir = isset($instance['settings']['file_directory']) ? $instance['settings']['file_directory'] .'/' : '';
           $location = token_replace($field['settings']['uri_scheme'] .'://'. $dir);
           $filePath = $location . $fileName;

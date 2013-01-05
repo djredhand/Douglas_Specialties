@@ -9,3 +9,7 @@ sites/all/modules/bulk_media_upload
 sites/all/modules/filefield_sources_plupload
 sites/all/modules/muploads
 sites/all/modules/rangy
+
+# Ignore user and temp files 
+sites/default/files
+temp/*

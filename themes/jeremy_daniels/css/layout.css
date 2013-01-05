@@ -329,14 +329,15 @@ background: url(../images/nav_bg.png)#029 !important;
 .field .field-label {
 	display:none;
 }
+
 .field-name-field-about-body{
 position: absolute;
 /*background:#000;*/
-
-height: 280px;
+background:url(http://s3.broadway.com/mediaspot/2.1780.png);
+height: 390px;
 overflow-y: auto;
 width: 814px;
-padding: 15px;
+padding: 25px;
 bottom: -104px;
 /*
 border-top:1px solid #005A7F;
@@ -344,7 +345,8 @@ border-bottom:1px solid #005A7F;
 */
 }
 .field-name-field-about-body p{
-	line-height: 15px;
+	line-height:18px;
+	padding: 0px 25px;
 }
 .field-type-image img, .user-picture img !important{
  margin:0;
